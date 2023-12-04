@@ -13,7 +13,8 @@ for example - opening port 8080
 
 
 ## Ubuntu Linux
-The Ubuntu firewall is disabled by default. However, you need to update your iptables configuration to allow HTTP traffic.
+The Ubuntu firewall is disabled by default.
+However, you need to update your iptables configuration to allow HTTP traffic.
 To update iptables, run the following commands:
 
 ```$ sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 8080 -j ACCEPT```
