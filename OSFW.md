@@ -2,6 +2,7 @@
 
 OCI is working in a [Zero Trust security model](https://www.oracle.com/security/what-is-zero-trust) 
 therefor our OCI Linux images come with the FW on by default.
+
 You must open the ports you want to use.
 
 for example - opening port 8080
