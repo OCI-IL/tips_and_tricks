@@ -1,4 +1,4 @@
-# Instance Internal FW
+# Instance Internal FW - OCI Linux Open Ports
 
 OCI Linux images come with the FW on by default.
 You must open the ports you want to use.
